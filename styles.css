@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+@media(min-width: 48em){
+    * {
+        list-style-type: none;
+    }
+    #application-root {
+        text-align: center;
+    }
+}
