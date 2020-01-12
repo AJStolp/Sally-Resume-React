@@ -24,16 +24,17 @@
  </script>
  
 
- <script type='text-babel'>
-    function Resume(){
+ <script type='text/babel'>
+    function Resume() {
       return (
-        <header>
-          <h1>Sally Student</h1>
-          <h4>Below you can view my skills and learn a little bit about me!</h4>
-        </header>
+          <header>
+              <h1>Sally Student</h1>
+              <h4>Below you can view my skills and learn a little bit about me!</h4>
+          </header>
       
-        <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" height="300px" alt="Image of myself - Sally">
-            <main>
+          <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" height="300px" alt="Image of myself - Sally"></img>
+
+        <main>
             <section>
               
               <header>
@@ -52,8 +53,6 @@
               </ul>
             </section>
             
-              
-            
             <section>
               <h2>Contact Information</h2>
               <address>
@@ -61,13 +60,14 @@
             <p> Or via Telephone - Phone Number: 262-123-2621</p>
             </address>
               </section>
-              </main>
-      );
-    };
+        </main>
+      )
+    }
 
      ReactDOM.render(
-       <Resume />, document.querySelector('#application-root');
+       <Resume />, document.querySelector('#application-root')
      )
+
  </script>
 
   </body>
